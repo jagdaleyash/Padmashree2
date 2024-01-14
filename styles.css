@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce6ff; /* Lavender Background */
+  }
+  
+  header {
+    background-color: #ff66b2; /* Pink Header Color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure the header is on top of other elements */
+  }
+
+  #intro-container {
+    text-align: center;
+    padding: 80px 20px 20px; /* Adjust top padding to accommodate the fixed header */
+  }
+  
+  #intro-container h1 {
+    font-size: 32px;
+    color: #ff66b2; /* Pink Text Color */
+  }
+  
+  #intro-container img {
+    width: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Make the panda image circular */
+    margin-top: 15px;
+  }
+  
+  #intro-container p {
+    font-size: 18px;
+    color: #4d4d4d; /* Dark Gray Text Color */
+    margin: 15px 0;
+  }
+  
+  #intro-container button {
+    background-color: #ff66b2; /* Pink Button Color */
+    color: white;
+    padding: 12px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #intro-container button:hover {
+    background-color: #e60073; /* Darker Pink Button Color on Hover */
+  }
+  
+  #game-container {
+    text-align: center;
+    padding: 80px 20px 20px; /* Adjust top padding to avoid content blending with the fixed header */
+    margin-top: 60px; /* Ensure space below the fixed header */
+  }
+  
+  #story-text {
+    text-align: center; /* Center-align text */
+    margin-bottom: 20px; /* Add some margin for separation */
+  }
+  
+  .choices {
+    text-align: center; /* Center-align text */
+  }
+  
+  .choice-button {
+    background-color: #ff66b2; /* Pink Button Color for Choices */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .choice-button:hover {
+    background-color: #e60073; /* Darker Pink Button Color on Hover for Choices */
+  }
+  
